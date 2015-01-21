@@ -1,7 +1,6 @@
 
 Pod::Spec.new do |s|
 
-
   s.name         = "PIXToolbar"
   s.version      = "0.0.1"
   s.summary      = "A short description of PIXToolbar."
@@ -19,8 +18,9 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "alexchueh" => "shadow@pixnet.tw" }
   s.source       = { :git => "https://github.com/alexchueh/PIXToolbar.git", :tag => "0.0.1" }
+  s.platform     = :ios, "7.0"
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  =  "**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
 end
