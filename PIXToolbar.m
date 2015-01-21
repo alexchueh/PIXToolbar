@@ -47,26 +47,26 @@
 - (void)clearBtnItemClicked:(id)sender
 {
     
-    if (self.skAVDeleage && [self.skAVDeleage respondsToSelector:@selector(accessoryViewClearBtnDidClicked:)])
+    if (self.PIXDeleage && [self.PIXDeleage respondsToSelector:@selector(accessoryViewClearBtnDidClicked:)])
     {
-        [self.skAVDeleage accessoryViewClearBtnDidClicked:self.tag];
+        [self.PIXDeleage accessoryViewClearBtnDidClicked:self.tag];
     }
     
 }
 
 - (void)cancelBtnItemClicked:(id)sender
 {
-    if (self.skAVDeleage && [self.skAVDeleage respondsToSelector:@selector(accessoryViewClearBtnDidClicked:)])
+    if (self.PIXDeleage && [self.PIXDeleage respondsToSelector:@selector(accessoryViewClearBtnDidClicked:)])
     {
-        [self.skAVDeleage accessoryViewCancelBtnDidClicked:self.tag];
+        [self.PIXDeleage accessoryViewCancelBtnDidClicked:self.tag];
     }
 }
 
 - (void)doneBtnItemClicked:(id)sender
 {
-    if (self.skAVDeleage && [self.skAVDeleage respondsToSelector:@selector(accessoryViewClearBtnDidClicked:)])
+    if (self.PIXDeleage && [self.PIXDeleage respondsToSelector:@selector(accessoryViewClearBtnDidClicked:)])
     {
-        [self.skAVDeleage accessoryViewDoneBtnDidClicked:self.tag];
+        [self.PIXDeleage accessoryViewDoneBtnDidClicked:self.tag];
     }
 }
 
