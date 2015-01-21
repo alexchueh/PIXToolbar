@@ -26,6 +26,6 @@ typedef NS_ENUM(NSInteger, AccessoryType)
 
 - (void)setType:(AccessoryType)type;
 
-@property (assign,nonatomic) id<PIXTextFieldAccessoryViewDeleage>skAVDeleage;
+@property (assign,nonatomic) id<PIXTextFieldAccessoryViewDeleage>PIXDeleage;
 
 @end
