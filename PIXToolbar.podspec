@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/alexchueh/PIXToolbar"
-  s.license      = { :type => 'MIT', :file => 'PIXToolbar/LICENSE' }
+  s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author       = { "alexchueh" => "shadow@pixnet.tw" }
   s.source       = { :git => "https://github.com/alexchueh/PIXToolbar.git", :tag => "0.0.1" }
   s.platform     = :ios, "7.0"
